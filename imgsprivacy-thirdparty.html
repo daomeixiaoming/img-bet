@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢欢 - 协议与政策</title>
+    <style>
+        :root {
+            --primary: #ff6b35;
+            --primarya: #3e2d7e;
+            --primaryb: #000000;
+            --primary-light: #fff0eb;
+            --bg: #f5f5f5;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --text-secondary: #666666;
+            --border: #e8e8e8;
+            --shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+        .header {
+            background: var(--card-bg);
+            padding: 0 20px;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            height: 56px;
+        }
+        .logo-icon {
+            width: 32px; height: 32px;
+            background: var(--primary);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 18px;
+        }
+        .logo-text { font-size: 20px; font-weight: 700; color: var(--primary); }
+        .content-wrapper { max-width: 800px; margin: 0 auto; padding: 10px 10px 10px; }
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            padding: 32px 28px;
+            margin-bottom: 24px;
+        }
+        .card h1 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 4px;
+        }
+        .card .update-date {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+        .card h2 {
+            font-size: 18px;
+            margin: 28px 0 12px;
+        }
+        .card h3 { font-size: 16px; margin: 18px 0 10px; }
+        .card p { margin-bottom: 12px; text-indent: 2em; font-size: 15px; }
+        .card ul, .card ol { margin: 10px 0 16px 2em; }
+        .card li { margin-bottom: 6px; font-size: 15px; }
+        .card strong { color: var(--primaryb); }
+        .highlight-box {
+            background: #fff8f5;
+            border: 1px solid #ffe0cc;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin: 16px 0;
+            font-size: 14px;
+            color: #8b4513;
+        }
+        .effective-date {
+            display: inline-block;
+            background: var(--primary-light);
+            color: var(--primary);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin-bottom: 8px;
+        }
+        .share-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0 24px;
+            font-size: 14px;
+        }
+        .share-table th, .share-table td {
+            border: 1px solid var(--border);
+            padding: 10px 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+        .share-table th { background: #fafafa; font-weight: 600; white-space: nowrap; }
+        .share-table tr:hover td { background: #fafafa; }
+        .card h2 a { color: var(--primarya); font-size: 14px; font-weight: 400; text-decoration: underline; margin-left: 12px; }
+        .card h2 a:hover { text-decoration: underline; }
+        .footer { text-align: center; padding: 5px; color: #999; font-size: 12px; }
+        .divider {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px 24px;
+        }
+        .divider-inner {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--primary), transparent);
+            opacity: 0.3;
+        }
+        @media (max-width: 640px) {
+            .card { border-radius: 0; padding: 24px 16px; margin-bottom: 12px; }
+            .card h1 { font-size: 20px; }
+            .card p, .card li { font-size: 14px; }
+            .share-table { font-size: 12px; }
+            .share-table th, .share-table td { padding: 8px 6px; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <!-- <div class="logo-icon">🐱</div>
+            <span class="logo-text">欢欢</span> -->
+            <span style="color:var(--text-secondary);font-size:14px;margin-left:8px;">协议与政策</span>
+        </div>
+    </header>
+
+    <div class="content-wrapper">
+        <!-- ==================== 用户服务协议 ==================== -->
+        <div class="card">
+            <h1>第三方共享个人信息清单</h1>
+            <p>1、为了保障我们的应用稳定的运行以及相关功能的实现，我们会与第三方合作伙伴合作，在应用中嵌入合作商的软件工具开发包（SDK）或提供API接口。当您使用由该第三方合作伙伴提供的特定服务和/或功能时，我们会根据“最小必要原则”，与第三方合作伙伴共享您的个人信息。</p>
+            <p>2、第三方合作伙伴处理个人信息的行为受其隐私政策或个人信息处理规则约束，故请您务必逐一检视这些第三方隐私政策（文件链接列示如下）</p>
+            <p>3、第三方合作伙伴如果调整个人信息处理规则，我们不能保证能实时中知晓并及时更新本清单，但我们承诺会尽最大努力及时更新本清单，以确保本清单的准确与完整。</p>
+
+            <h2>嵌入的第三方SDK清单如下</h2>
+            <h2>1、DK名称：助通个验SDK         <a href="https://cloud.zthysms.com/#/protocol" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>上海助通信息科技有限公司</p>
+            <p><strong>使用目的：</strong>助用户实现一键免密登录服务，即通过手机号码一键授权完成注册登录</p>
+            <p><strong>共享个人信息字段：</strong>本机手机号码、设备识别码(IMEl、IDFA、AndroidID、MAC、OAID, Advertising ID、 Serial Number、 IMSI, UAID, ICCID)、网络信息(IP地址、WIFI信息、基站信息)、位置信息、应用列表、设备品牌、设备型号、系统版本</p>
+
+            <h2>2、SDK名称：APP支付客户端SDK         <a href="https://opendocs.alipay.com/open/54/01g6qm" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>支付宝（杭州）信息技术有限公司</p>
+            <p><strong>使用目的：</strong>帮助用户在应用内完成支付，履行反洗钱、反恐怖融资、反电信网络诈骗相关法律义务。</p>
+            <p><strong>共享方式：</strong>SDK本机采集</p>
+            <p><strong>共享个人信息字段：</strong>设备参数及系统信息（系统设置、系统属性、设备型号、设备品牌、操作系统、硬件序列号、设备MAC地址），设备标识符（Android ID/OAID/SSID/BSSID），网络相关信息（IP 地址、网络类型、电信运营商、Wi-Fi 状态、WLAN接入点[SSID、BSSID]、Wi-Fi 参数、Wi-Fi 列表），读SDCard、开发者应用包名，交易信息（交易金额、下单时间、订单商户、订单编号、支付方式、支付账号、支付状态信息）</p>
+
+            <h2>3、SDK名称：微信OpenSDK Android         <a href="https://support.weixin.qq.com/cgi-bin/mmsupportacctnodeweb-bin/pages/RYiYJkLOrQwu0nb8" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>深圳市腾讯计算机系统有限公司</p>
+            <p><strong>使用目的：</strong>帮助用户在应用内完成支付，履行反洗钱、反恐怖融资、反电信网络诈骗相关法律义务。</p>
+            <p><strong>共享方式：</strong>SDK本机采集</p>
+            <p><strong>共享信息名称：</strong>用户选择的图片或内容（用户分享时），微信账号相关信息（头像、昵称），开发者应用包名，微信支付订单标识（使用微信支付功能时），应用列表（仅判断特定应用的安装情况），指定包名（仅在用户终端内完成）</p>
+
+            <h2>4、SDK名称：腾讯云即时通信IM SDK         <a href="https://cloud.tencent.com/document/product/269/58094" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>腾讯云计算(北京)有限责任公司</p>
+            <p><strong>使用目的：</strong>即时通信IM服务</p>
+            <p><strong>共享方式：</strong>嵌入第三方SDK,SDK收集传输个人信息</p>
+            <p><strong>共享个人信息字段：</strong>网络连接状态、设备型号、系统版本</p>
+
+            <h2>5、SDK名称：声网音频SDK         <a href="https://www.agora.io/cn/privacy-policy" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>上海兆言网络科技有限公司</p>
+            <p><strong>使用目的：</strong>提供语音通话，一对一单聊和多人群聊服务</p>
+            <p><strong>共享方式：</strong>嵌入第三方SDK,SDK收集传输个人信息</p>
+            <p><strong>共享个人信息字段：</strong>音频数据信息、网络信息(音频发送接收分辨率，码率帧率)，麦克风、设备类型、设备型号、CPU信息、电池电量信息;网络状况相关的信息包括:动态IP地址、网络类型</p>
+
+            <h2>6、SDK名称：声网视频SDK         <a href="https://www.agora.io/cn/privacy-policy" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>上海兆言网络科技有限公司</p>
+            <p><strong>使用目的：</strong>提供视频展示服务</p>
+            <p><strong>共享方式：</strong>嵌入第三方SDK,SDK收集传输个人信息</p>
+            <p><strong>共享个人信息字段：</strong>视频数据信息、网络信息(视频发送接收分辨率，码率帧率)，麦克风、设备类型、设备型号、CPU信息、电池电量信息;网络状况相关的信息包括:动态IP地址、网络类型</p>
+
+            <h2>7、SDK名称：微信登录SDK         <a href="https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=privacy" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>腾讯科技(深圳)有限公司</p>
+            <p><strong>使用目的：</strong>微信登录、微信分享、提现</p>
+            <p><strong>共享方式：</strong>嵌入第三方SDK,SDK收集传输个人信息</p>
+            <p><strong>共享个人信息字段：</strong>IMEl、IMSI、SIM卡序列号信息</p>
+
+            <h2>8、SDK名称：MobLink-Android         <a href="https://www.mob.com/wiki/detailed?wiki=638&id=14" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>上海掌之淘信息技术有限公司</p>
+            <p><strong>使用目的：</strong>集合微信、微博、QQ第三方授权登录，内容分享</p>
+            <p><strong>共享方式：</strong>SDK本机采集</p>
+            <p><strong>共享信息名称：</strong>设备标识符（IMEI/OAID/IMSI/Android ID/VAID/AAID）、粗略地理位置信息、应用安装列表、系统运行信息、网络相关信息（网络状态信息、WLAN接入点[SSID、BSSID]、IP地址、运营商信息、WIFI状态），社交平台 OpenID</p>
+
+            <h2>9、SDK名称：腾讯Bugly SDK         <a href="https://bugly.qq.com/docs/user-guide/faq-android/?v=1.0.0#1-bugly" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>深圳市腾讯计算机系统有限公司</p>
+            <p><strong>使用目的：</strong>用于统计崩溃日志</p>
+            <p><strong>共享方式：</strong>嵌入第三方SDK,SDK收集传输崩溃信息</p>
+            <p><strong>共享个人信息字段：</strong>设备ID(androidid、idfv)、联网信息、系统名称、系统版本以及国家码</p>
+
+            <h2>10、SDK名称：QQ互联SDK（Android版本）         <a href="https://wiki.connect.qq.com/qq%E4%BA%92%E8%81%94sdk%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E5%A3%B0%E6%98%8E" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>深圳市腾讯计算机系统有限公司</p>
+            <p><strong>使用目的：</strong>实现登录、分享功能</p>
+            <p><strong>共享方式：</strong>SDK本机采集</p>
+            <p><strong>共享信息名称：</strong>设备参数及系统信息（设备型号），应用列表（仅判断特定应用的安装情况），应用包名</p>
+
+            <h2>11、SDK名称：VIVO推送SDK         <a href="https://dev.vivo.com.cn/documentCenter/doc/180" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>广东天宸网络科技有限公司</p>
+            <p><strong>使用目的：</strong>消息推送</p>
+            <p><strong>共享个人信息字段：</strong>外部存储状态、网络类型、设备型号、IMEI、ANDROID_ID、IP 地址</p>
+
+            <h2>12、SDK名称：OPPO推送SDK         <a href="https://open.oppomobile.com/wiki/doc#id=10295" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>广东欢太科技有限公司</p>
+            <p><strong>使用目的：</strong>消息推送</p>
+            <p><strong>共享个人信息字段：</strong>外部存储状态、网络类型、设备型号、IMEI、ANDROID_ID、IP 地址</p>
+
+            <h2>13、SDK名称：华为推送SDK         <a href="https://developer.huawei.com/consumer/cn/hms/huawei-pushkit" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>华为软件技术有限公司</p>
+            <p><strong>使用目的：</strong>消息推送</p>
+            <p><strong>共享个人信息字段：</strong>应用基本信息、应用内设备标识符、设备的硬件信息、系统基本信息和系统设置信息</p>
+
+            <h2>14、SDK名称：小米推送SDK         <a href="https://dev.mi.com/console/doc/detail?pId=1822" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>小米科技有限责任公司</p>
+            <p><strong>使用目的：</strong>消息推送</p>
+            <p><strong>共享个人信息字段：</strong>设备标识符（如 Android ID、OAID、GAID）、设备信息</p>
+
+            <h2>15、SDK名称：百度Android定位SDK         <a href="https://lbs.baidu.com/index.php?title=openprivacy" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>北京百度网讯科技有限公司</p>
+            <p><strong>使用目的：</strong>向用户推荐所在地区的直播内容</p>
+            <p><strong>共享方式：</strong>SDK本机采集</p>
+            <p><strong>共享信息名称：</strong>设备参数及系统信息（操作系统版本、设备配置、设备品牌及型号、MAC地址），设备标识符（Android ID/IDFV/IMEl/IDFA/MEID/OAID/IMSI/硬件序列号），位置信息（经纬度、GNSS信息、WiFi网关地址、WLAN接入点[BSSID、SSID]、WiFi信号强度、WiFi状态、WiFi参数、WiFi列表、基站ID数据信息、电信运营商、设备信号强度信息、SIM卡状态、IP地址、传感器信息[加速度、陀螺仪、方向、旋转矢量、磁力计]），网络信息（移动网络、WiFi网络），开发者应用包名，设备应用安装列表，运行列表、指定包名</p>
+
+            <h2>16、SDK名称：美数聚合广告SDK-Android         <a href="https://www.atdplus.cn/html/sdk-privacy-agreement/%E7%BE%8E%E6%95%B0%E8%81%9A%E5%90%88%E5%B9%BF%E5%91%8ASDK%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96.pdf" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>北京美数信息科技有限公司</p>
+            <p><strong>使用目的：</strong>广告投放、广告归因、广告反作弊</p>
+            <p><strong>共享方式：</strong>SDK本机采集</p>
+            <p><strong>共享信息名称：</strong>设备参数及系统信息（设备品牌、设备型号、设备时区、设备语言、操作系统版本、UserAgent信息、屏幕分辨率、电池电量、MAC地址），设备标识符（OAID/Android ID/IMEI），网络相关信息（WLAN接入点[BSSID、SSID]、连接的WiFi信息、WiFi扫描结果、电信运营商、SIM卡信息、IP地址），设备传感器（加速度、陀螺仪），应用信息（开发者应用名、应用版本号、应用包名），使用数据（产品交互数据、广告数据），诊断数据（崩溃数据、性能数据）</p>
+
+            <h2>17、SDK名称：实时音视频_Android         <a href="https://cloud.baidu.com/doc/VideoCreatingSDK/s/Jkeci6ueh" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>北京百度网讯科技有限公司</p>
+            <p><strong>使用目的：</strong>优化设备音频体验</p>
+            <p><strong>共享方式：</strong>SDK本机采集</p>
+            <p><strong>共享信息名称：</strong>设备识别信息（设备序列号、设备型号、MAC地址）、IP地址、WiFi接入点【BSSID、SSID】、WiFi路由器、WiFi状态、传感器信息（加速度传感器、陀螺仪传感器、线性加速度传感器、磁场传感器、旋转矢量传感器）</p>
+
+            <h2>18、SDK名称：号码认证         <a href="https://wap.cmpassport.com/resources" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>中移互联网有限公司</p>
+            <p><strong>使用目的：</strong>手机号码"一键登录"</p>
+            <p><strong>使用场景：</strong>移动用户使用一键登录时</p>
+            <p><strong>权限调用：</strong>获取Wi-Fi状态、获取网络状态</p>
+            <p><strong>共享方式：</strong>SDK本机采集</p>
+            <p><strong>共享信息名称：</strong>设备参数及系统信息（设备类型、操作系统、硬件厂商、SIM卡信息、SIM卡状态），网络相关信息（网络类型、网络地址、WLAN接入点[SSID、BSSID]、电信运营商），本机手机号</p>
+
+            <h2>19、SDK名称：电信一键登录SDK         <a href="https://e.189.cn/sdk/agreement/show.do?order=2&type=main&appKey=&hidetop=true&returnUrl=" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>天翼数字生活科技有限公司</p>
+            <p><strong>使用目的：</strong>用于获取用户手机号，免去用户输入手机验证码</p>
+            <p><strong>共享方式：</strong>嵌入第三方SDK,SDK收集传输</p>
+            <p><strong>共享个人信息字段：</strong>注册手机号码、本机号码、国际移动用户标识码、应用进程信息、网络连接类型、网络状态信息、网络地址、运营商类型、手机设备类型、手机设备厂商、手机操作系统类型及版本</p>
+
+            <h2>20、SDK名称：联通一键登录SDK         <a href="https://opencloud.wostore.cn/authz/resource/html/disclaimer.html" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>中国联合网络通信有限公司</p>
+            <p><strong>使用目的：</strong>用于获取用户手机号，免去用户输入手机验证码</p>
+            <p><strong>共享方式：</strong>嵌入第三方SDK,SDK收集传输</p>
+            <p><strong>共享个人信息字段：</strong>网络类型、网络地址、运营商类型、本机手机号、手机设备类型、手机操作系统、硬件厂商</p>
+
+            <h2>21、SDK名称：移动一键登录SDK         <a href="https://wap.cmpassport.com/resources/html/contract.html" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>中移互联网有限公司</p>
+            <p><strong>使用目的：</strong>用于获取用户手机号，免去用户输入手机验证码</p>
+            <p><strong>共享方式：</strong>嵌入第三方SDK,SDK收集传输</p>
+            <p><strong>共享个人信息字段：</strong>网络类型、网络地址、运营商类型、本机号码信息、SIM卡状态、手机设备类型、手机操作系统、硬件厂商</p>
+
+            <h2>22、SDK名称：移动安全联盟SDK         <a href="http://www.msa-alliance.cn/col.jsp?id=122" target="_blank" rel="nofollow noopener">查看隐私政策</a></h2>
+            <p><strong>第三方公司名称：</strong>移动安全联盟</p>
+            <p><strong>使用目的：</strong>用于获取安卓10系统的设备唯一标识：oaid</p>
+            <p><strong>共享方式：</strong>嵌入第三方SDK,SDK收集传输个人信息</p>
+            <p><strong>共享个人信息字段：</strong>设备制造商、设备型号、设备品牌、设备网络运营商名称、App包名及签名信息，或在对应应用商店的APPID</p>
+
+        </div>
+
+        <footer class="footer">
+            <p>© 2026 欢欢平台 版权所有</p>
+        </footer>
+    </div>
+
+</body>
+</html>
